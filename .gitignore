@@ -1,0 +1,16 @@
+# Ignore everything outside current project scope
+../*
+
+# Allow project folder contents
+!*/
+
+# Ignore some known unwanted files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+__pycache__/
+demo.py
